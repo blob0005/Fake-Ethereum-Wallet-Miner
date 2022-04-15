@@ -1,3 +1,3 @@
 python -m pip install -r requirements.txt
 cls
-echo python rage.py >> "start.bat"
+echo python main.py >> "start.bat"
