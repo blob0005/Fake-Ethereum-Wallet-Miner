@@ -1,9 +1,12 @@
-from itertools import cycle
 import time
 import sys
 import random
 import colorama
+import os
 colorama.init(autoreset=False)
+def clr():
+    _ = os.system("cls")
+    return
 def print00025(text):
     for c in text:
         sys.stdout.write(colorama.Fore.CYAN + c)
@@ -42,24 +45,38 @@ def eth():
     time.sleep(3)
     choice = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     while True:
+        for u in range(150):
+            clr()
+            print(colorama.Fore.RED + """
+        ________  __       _____ __             __         
+       / ____/ /_/ /_     / ___// /____  ____ _/ /__  _____
+      / __/ / __/ __ \    \__ \/ __/ _ \/ __ `/ / _ \/ ___/
+     / /___/ /_/ / / /   ___/ / /_/  __/ /_/ / /  __/ /    
+    /_____/\__/_/ /_/   /____/\__/\___/\__,_/_/\___/_/     
+                                                           
+                                    #MADE BY blob#0005""")
+            rc = random.choices(choice, k=128)
+            print(colorama.Fore.RED + "Generated Code - " + "".join(rc) + " - 0.00$")
+            time.sleep(0.075)
+        clr()
+        r1 = random.randint(1644, 9856)
         rc = random.choices(choice, k=128)
-        rrr = random.randint(1, 999)
-        if rrr != 245:
-            print(colorama.Fore.RED + "Crypto Wallet Generated        |        " + "".join(rc) + "        |        Code Invalid")
-        if rrr == 245:
-            print(colorama.Fore.GREEN + "Crypto Wallet Generated        |        " + "".join(rc) + "        |        Code Valid")
-            time.sleep(delay2)
-            ramount = random.uniform(0.01, 19.00)
-            print(colorama.Fore.GREEN + f"User Had {ramount} Ethereum")
-            time.sleep(delay2)
-            print(colorama.Fore.GREEN + "Sending Ethereum To Main Address")
-            time.sleep(delay2)
-            print(colorama.Fore.GREEN + "Succsesfully Sent")
-            time.sleep(delay2)
-            print(colorama.Fore.GREEN + "Enough For Today CYA")
-            time.sleep(8)
-            return
-        time.sleep(0.005)
+
+        print(colorama.Fore.GREEN + """
+        ________  __       _____ __             __         
+       / ____/ /_/ /_     / ___// /____  ____ _/ /__  _____
+      / __/ / __/ __ \    \__ \/ __/ _ \/ __ `/ / _ \/ ___/
+     / /___/ /_/ / / /   ___/ / /_/  __/ /_/ / /  __/ /    
+    /_____/\__/_/ /_/   /____/\__/\___/\__,_/_/\___/_/     
+                                                           
+                                    #MADE BY blob#0005""")
+        print(colorama.Fore.GREEN + "Generated Code - " + "".join(rc) + " - " + str(r1) + "$")
+        time.sleep(1)
+        print(colorama.Fore.GREEN + "Sending Money To Main Address")
+        time.sleep(1)
+        print(colorama.Fore.GREEN + "Enough For Today, CYA")
+        time.sleep(5)
+        return
 while True:
     print(colorama.Fore.CYAN + """
     1. Credits
