@@ -55,12 +55,12 @@ def eth():
     /_____/\__/_/ /_/   /____/\__/\___/\__,_/_/\___/_/     
                                                            
                                     #MADE BY blob#0005""")
-            rc = random.choices(choice, k=128)
+            rc = random.choices(choice, k=64)
             print(colorama.Fore.RED + "Generated Code - " + "".join(rc) + " - 0.00$")
             time.sleep(0.075)
         clr()
         r1 = random.randint(1644, 9856)
-        rc = random.choices(choice, k=128)
+        rc = random.choices(choice, k=64)
 
         print(colorama.Fore.GREEN + """
         ________  __       _____ __             __         
