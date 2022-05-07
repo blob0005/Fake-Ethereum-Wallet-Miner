@@ -1,8 +1,34 @@
+error = False
 import time
 import sys
 import random
-import colorama
+try:
+    import colorama
+except Exception:
+    print("Missing Colorama Module")
+    error = True
 import os
+if error == True:
+    while True:
+        autofix = input("Missing Module(s), Wanna Try Auto Fix The Problem (y/n): ")
+        if autofix == "y" or autofix == "n":
+            break
+        else:
+            print("Enter A Valid Choice")
+    if autofix == "y":
+        try:
+            os.system("pip install colorama")
+        except Exception:
+            print("Error While Downloading Module")
+            input("")
+            exit()
+        print("Problem Should Be Fixed Now, Please Restart The Program")
+        input("")
+        exit()
+    if autofix == "n":
+        print("Press Enter To Close Program")
+        input("")
+        exit()
 colorama.init(autoreset=False)
 def clr():
     _ = os.system("cls")
