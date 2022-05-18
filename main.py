@@ -153,8 +153,3 @@ while True:
         input("")
         if main == "2":
             main = input("Please enter your wallet address: ")
-    else:
-        clr()
-        print("Please enter a valid choice")
-        time.sleep(0.5)
-        clr()
