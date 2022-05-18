@@ -151,5 +151,6 @@ while True:
         print(colorama.Fore.RED + "Fork created by: Xeify#9155 ")
         print("")
         input("")
-        if main == "2":
-            main = input("Please enter your wallet address: ")
+    if main == "2":
+        main = input("Please enter your wallet address: ")
+            
