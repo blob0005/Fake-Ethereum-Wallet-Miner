@@ -22,6 +22,7 @@ Fake generator for BTC/ETH or whatever. This is as seen on tiktok. This is a for
 Blobs Discord Server: https://discord.gg/PFg5EYq5Vb
 
 Creator: blob#0005
+
 Forked by: Xeify#9155
 
-# For support with this code ONLY please contact Xeify#9155
+### For support with this code ONLY please contact Xeify#9155
