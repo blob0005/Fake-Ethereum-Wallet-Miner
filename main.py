@@ -105,7 +105,6 @@ def miner():
             rc = random.choices(choice, k=64)
             print(colorama.Fore.RED + "Generated Code - " + "".join(rc) + " - 0.00$")
             time.sleep(0.075)
-        clr()
         r1 = random.randint(1644, 9856)
         rc = random.choices(choice, k=64)
 
@@ -153,4 +152,3 @@ while True:
         input("")
     if main == "2":
         main = input("Please enter your wallet address: ")
-            
