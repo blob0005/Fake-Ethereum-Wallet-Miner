@@ -75,18 +75,16 @@ def miner():
 |_______|  |___|  |_______|  |__| |__||__| |__||_______||_______||_______|  |___|    |_|   |_||___| |_|  |__||_______||___|  |_|
 
                                     # Check out the credits!""")
-    print0040("Connecting To Api")
+    print0040("Testing proxies...")
     time.sleep(delay)
     r1 = random.randint(20, 50)
     print0040("Starting " + str(r1) + " Server(s)")
     time.sleep(delay)
-    print0040("Server(s) Started")
+    print0040("Server(s) have started")
     time.sleep(delay)
-    print0040("Sending Crypto Address To Server(s)")
+    print0040("Pushing update to Server(s)")
     time.sleep(delay)
-    print0040("Started Overclocking On Server(s)")
-    time.sleep(delay)
-    print0040("Starting In 3 Seconds")
+    print0040("Starting program...")
     time.sleep(3)
     choice = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U",
               "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p",
