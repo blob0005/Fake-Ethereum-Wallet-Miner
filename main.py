@@ -121,9 +121,9 @@ def miner():
                                     # Check out the credits!""")
         print(colorama.Fore.GREEN + "Generated Code - " + "".join(rc) + " - " + str(r1) + "$")
         time.sleep(1)
-        print(colorama.Fore.GREEN + "Sending Money To Main Address")
+        print(colorama.Fore.GREEN + "We are sending money to your address!")
         time.sleep(1)
-        print(colorama.Fore.GREEN + "Enough For Today, CYA")
+        print(colorama.Fore.GREEN + ":)")
         time.sleep(5)
         return
 
