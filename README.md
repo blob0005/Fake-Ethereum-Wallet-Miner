@@ -11,6 +11,7 @@ Setup:
 6. run start.bat
 7. program started :)
 
+Made by blob#0005
 Forked with love by Xeify#9155
 
 # 
