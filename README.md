@@ -1,25 +1,29 @@
-# Fake-Eth-Private-Key-Stealer
+# Fake BTC Wallet Generator
+## As seen on TikTok...
 
 Setup:
 
 1. download python (https://python.org)
-2. open the file that u downloaded
-3. follow the setup
-4. open it agian and click modify
-5. select all and click next
-6. select all and click next
-7. wait until downloaded
-8. click close
-9. open setup.bat
-10. open start.bat
-11. then program have been started
+2. open the archive/zip file you downloaded
+3. unzip/extract files to desktop
+4. run setup.bat
+5. follow the setup
+6. run start.bat
+7. program started :)
 
-#-----------------
+Made by blob#0005
+Forked with love by Xeify#9155
 
-Info:
+# 
 
-This is an fake gen, you see alot of them on titok and youtube none are real this is just if you wanna scam a bunch of kids by selling it
+Information:
 
-Server: https://discord.gg/PFg5EYq5Vb
+Fake generator for BTC/ETH or whatever. This is as seen on tiktok. This is a fork of code created by blob#0005 there information is provided below along with mine.
 
-Dev: blob#0005
+Blobs Discord Server: https://discord.gg/PFg5EYq5Vb
+
+Creator: blob#0005
+
+Forked by: Xeify#9155
+
+### For support with this code ONLY please contact Xeify#9155
