@@ -12,7 +12,7 @@ Setup:
 8. click close
 9. open setup.bat
 10. open start.bat
-11. type 3. boom
+11. type 3, boom
 
 #-----------------
 
