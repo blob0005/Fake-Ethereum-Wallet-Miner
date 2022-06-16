@@ -4,7 +4,7 @@ import random
 try:
     import os
     from os import system
-    system("title " + "Ethereum Wallet Miner")
+    system("title " + "Ethereum Wallet Miner,   Made By blob#0005,   Github: github.com/blob0005")
 except:
     pass
 try:
